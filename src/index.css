@@ -1,0 +1,106 @@
+body{
+  background-color: #180f29;
+  color: white;
+}
+
+
+.home,.movies {
+width: 1300px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap:10px;
+
+}
+
+.homecontent{
+  width: 1300px;
+ 
+  color: white;
+  font-family: sans-serif;
+  margin: 50px auto;
+}
+
+.homecontent a{
+  color: white;
+}
+
+
+.movie img{
+  width: 300px;
+}
+
+.search {
+  background-color:#180f29;
+  padding:10px;
+  width: 100%;
+
+}
+
+.search input {
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+  margin-left: 550px;
+  text-align: center;
+
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-size: 24px;
+  justify-content: center;
+  
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.pages {
+ display: flex;
+ margin: 10px;
+ padding: 10px;
+ justify-content: center;
+ gap: 5px;
+}
+
+.pages button {
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.pages span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.aboutpage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  gap:20px;
+}
+
+.imageabout img{
+  width: 650px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+
+.moviedetails{
+display: flex;
+flex-direction: column;
+
+}
+
+.moviedetails img {
+  width: 300px;
+}
